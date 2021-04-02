@@ -21,7 +21,7 @@ The following parameters can be specified for training:
 - --lr_decay: Factor for reducing learning rate after 10000 steps, 1 if no decay intended
 
 Only ljpeg and ljpeg_attention:
-- --lpips_weight: Weight on LPIPS term in distortion loss
+- --lpips_weight: Weight on LPIPS term in distortion loss, We use the LPIPS implementation from here: https://github.com/alexlee-gk/lpips-tensorflow
 - --total_weight_regularizer: weight on L1 loss of quantization tables
 
 ### Run Training
